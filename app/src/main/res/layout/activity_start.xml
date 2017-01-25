@@ -11,8 +11,14 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.nuapps.StartActivity">
 
-    <TextView
+
+
+    <com.nuapps.TypeWriter
+        android:id="@+id/Typewriter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+        android:textSize="42dp"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
 </RelativeLayout>
